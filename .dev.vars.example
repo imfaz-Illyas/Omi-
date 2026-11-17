@@ -1,0 +1,6 @@
+# Copy to .dev.vars for local testing with `npm run dev`. In production set these in the Cloudflare dashboard.
+ADMIN_TOKEN=change-me-to-a-long-random-string
+SITE_URL=
+SUPABASE_URL=
+SUPABASE_ANON_KEY=
+COUNT_BOT_GAMES=true

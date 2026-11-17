@@ -1,0 +1,8 @@
+// Used by build.mjs and for local testing (npm run dev). The deploy config is deploy/wrangler.jsonc.
+{
+  "name": "omi-lanka",
+  "main": "src/worker.js",
+  "compatibility_date": "2025-09-01",
+  "durable_objects": { "bindings": [{ "name": "GAME", "class_name": "GameHub" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["GameHub"] }]
+}
