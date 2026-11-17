@@ -1,0 +1,12 @@
+{
+  "name": "omi-lanka",
+  "main": "worker.js",
+  "compatibility_date": "2025-09-01",
+  "durable_objects": {
+    "bindings": [{ "name": "GAME", "class_name": "GameHub" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["GameHub"] }],
+  // Keep the variables and secrets you set in the Cloudflare dashboard when deploying.
+  "keep_vars": true,
+  "observability": { "enabled": true }
+}
