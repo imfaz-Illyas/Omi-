@@ -1,11 +1,12 @@
 {
-  "name": "omi-lanka-source",
-  "version": "2.1.0",
+  "name": "omi-lanka",
+  "version": "2.0.0",
   "private": true,
+  "description": "OMI LANKA – online multiplayer Sri Lankan Omi on Cloudflare Workers + Durable Objects",
   "type": "module",
   "scripts": {
-    "build": "node build.mjs",
-    "dev": "node build.mjs && wrangler dev --config wrangler.build.jsonc"
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "devDependencies": {
     "wrangler": "4.158.0"
